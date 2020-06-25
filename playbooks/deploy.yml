@@ -1,0 +1,9 @@
+- name: Deploy website
+  gather_facts: false
+  hosts: localhost
+  tasks:
+    - name: Sync local build dir with bucket
+      s3_sync:
+        bucket: alan-covarrubias
+        file_root: ../build
+        permission: public-read
