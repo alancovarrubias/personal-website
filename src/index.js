@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import YinYang from "./YinYang";
+import Psy from "./Psy";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    <YinYang />
+    <Psy />
   </React.StrictMode>,
   document.getElementById("root")
 );

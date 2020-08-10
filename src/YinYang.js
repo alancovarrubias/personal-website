@@ -4,7 +4,7 @@ import "./scss/_yinyang.scss";
 function YinYang() {
   return (
     <div class="container">
-      <div class="☯"></div>
+      <div class="yinyang"></div>
     </div>
   );
 }
