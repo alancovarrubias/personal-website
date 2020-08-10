@@ -3,8 +3,8 @@ import "./scss/_psy.scss";
 
 function Psy() {
   return (
-    <div class="container">
-      <div class="psy"></div>
+    <div className="container">
+      <div className="psy"></div>
     </div>
   );
 }

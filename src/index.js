@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Psy from "./Psy";
+import BugGame from "./BugGame";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Psy />
+    <BugGame />
   </React.StrictMode>,
   document.getElementById("root")
 );
