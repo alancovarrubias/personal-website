@@ -1,0 +1,38 @@
+$d: 80vmin;
+$line: linear-gradient(90deg, #be4c39 50%, transparent 0) 0/ 2em 0.25em repeat-x
+  border-box;
+
+.container {
+  box-sizing: content-box;
+  background-color: slategray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+  background: lightslategray;
+}
+
+.☯ {
+  display: flex;
+  align-items: center;
+  width: $d;
+  height: $d;
+  border-radius: 50%;
+  background: linear-gradient(black 50%, white 50%);
+
+  &:before,
+  &:after {
+    box-sizing: border-box;
+    flex: 1;
+    height: 50%;
+    border-radius: 50%;
+    background: white;
+    border: solid $d/6 black;
+    content: "";
+  }
+  &:after {
+    background: black;
+    border: solid $d/6 white;
+  }
+}

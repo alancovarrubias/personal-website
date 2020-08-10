@@ -1,0 +1,17 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Cabin", Arial, Geneva, sans-serif;
+  background-image: url(../img/stars.jpg);
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}

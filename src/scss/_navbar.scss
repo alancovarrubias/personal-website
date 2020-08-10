@@ -1,0 +1,38 @@
+nav ul {
+  background-color: cyan;
+  color: white;
+  padding: 0;
+}
+nav ul li {
+  list-style-type: none;
+  border-right: white 1px solid;
+  cursor: pointer;
+  width: 5%;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+nav > ul > li {
+  display: inline-block;
+  position: relative;
+}
+nav ul ul {
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: 0.2s linear 50ms;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+}
+nav ul ul > li {
+  width: 100%;
+  border-top: white 1px solid;
+}
+nav li:hover ul {
+  transform: scale(1, 1);
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
