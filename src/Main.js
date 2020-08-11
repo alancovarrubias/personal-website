@@ -3,8 +3,8 @@ import Zoom from "./Zoom";
 
 function Main() {
   return (
-    <div className="row main">
-      <h2 className="underline">Background</h2>
+    <main className="row">
+      <h2 className="underline">About This Website</h2>
       <article class="col-3">
         <p>
           <Zoom />
@@ -21,12 +21,11 @@ function Main() {
           you what's possible even without any JavaScript!
         </p>
         <p>
-          Please reach out to me if you have any questions about me and any of
-          the services I offer. I will do my best to get back to you in a timely
-          manner.
+          Please reach out to me if you have any questions about me or any of
+          the services I offer, and I will get back to you as soon as I can!
         </p>
       </article>
-    </div>
+    </main>
   );
 }
 

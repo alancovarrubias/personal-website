@@ -1,0 +1,32 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+  font-size: 28px;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Cabin", Arial, Geneva, sans-serif;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
+.floatright {
+  float: right;
+}
+
+.underline::after {
+  content: "";
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: currentColor;
+  transition: 300ms;
+}
+.underline:hover::after {
+  width: 100%;
+}
