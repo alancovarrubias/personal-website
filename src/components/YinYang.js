@@ -2,7 +2,7 @@ import React from "react";
 
 function YinYang() {
   return (
-    <div class="row center">
+    <div class="row center pad">
       <div class="yinyang"></div>
     </div>
   );

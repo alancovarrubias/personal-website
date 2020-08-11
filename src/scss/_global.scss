@@ -14,9 +14,29 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
 .floatright {
   float: right;
 }
+
+.stars {
+  background-image: url(../img/stars.jpg);
+  color: white;
+}
+
+.clouds {
+  background-image: url(../img/clouds.png);
+  color: black;
+}
+.sand {
+  background-image: url(../img/sand.jpg);
+  color: black;
+}
+
+.pad {
+  padding: 3% 0;
+}
+
 .underline::after {
   content: "";
   width: 0px;

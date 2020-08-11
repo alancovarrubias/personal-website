@@ -1,4 +1,5 @@
 .hover-zoom {
+  order: 1;
   margin: 10px;
   height: 220px;
   width: 400px;
@@ -8,6 +9,7 @@
   background-repeat: no-repeat;
   background-color: gray;
   border-radius: 50%;
+  cursor: pointer;
   background-image: url(../img/me.jpg);
 }
 .hover-zoom:hover {

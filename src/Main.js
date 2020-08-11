@@ -3,8 +3,8 @@ import Zoom from "./components/Zoom";
 
 function Main() {
   return (
-    <main className="row">
-      <h2 className="underline">Purpose</h2>
+    <div className="row main">
+      <h2 className="underline">Background</h2>
       <article class="col-3">
         <p>
           <Zoom />
@@ -22,10 +22,11 @@ function Main() {
         </p>
         <p>
           Please reach out to me if you have any questions about me and any of
-          the services I offer. I will get back to you as soon as possible!
+          the services I offer. I will do my best to get back to you in a timely
+          manner.
         </p>
       </article>
-    </main>
+    </div>
   );
 }
 
