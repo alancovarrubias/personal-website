@@ -1,5 +1,5 @@
 import React from "react";
-import Zoom from "./Zoom";
+import HoverZoom from "./HoverZoom";
 
 function Main() {
   return (
@@ -7,7 +7,7 @@ function Main() {
       <h2 className="underline">About This Website</h2>
       <article className="col-">
         <p>
-          <Zoom />
+          <HoverZoom />
           Hello, and thank you for visiting my website! I am a web developer and
           the purpose of this website is to showcase my web development skills.
           The dropdown menu above contains many links to many of my projects.

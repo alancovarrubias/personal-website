@@ -5,7 +5,7 @@ function SquashBug() {
     <div className="row">
       <div className="col-">
         <div className="map">
-          <div className="bug"></div>
+          <div className="bug" title="Bug Icon"></div>
         </div>
       </div>
     </div>

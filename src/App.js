@@ -11,19 +11,19 @@ import "./scss/styles.scss";
 function App() {
   return (
     <div className="container">
-      <div className="stars">
+      <div className="stars" title="Star Background">
         <Header />
         <YinYang />
       </div>
       <Navbar />
-      <div className="clouds">
+      <div className="clouds" title="Cloud Background">
         <Main />
         <Psy />
       </div>
-      <div className="grass">
+      <div className="grass" title="Grass Background">
         <SquashBug />
       </div>
-      <div className="sand">
+      <div className="sand" title="Sand Background">
         <Footer />
       </div>
     </div>

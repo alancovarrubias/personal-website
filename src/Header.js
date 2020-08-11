@@ -1,5 +1,4 @@
 import React from "react";
-import Zoom from "./Zoom";
 
 function Header() {
   return (
