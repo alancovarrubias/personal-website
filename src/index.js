@@ -1,12 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import BugGame from "./BugGame";
+import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BugGame />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

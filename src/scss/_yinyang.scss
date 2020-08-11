@@ -1,17 +1,6 @@
-$diameter: 80vmin;
+$diameter: 50vmin;
 $scale_factor: 0.5;
 $time: 1s;
-
-.container {
-  box-sizing: content-box;
-  background-color: slategray;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  height: 100vh;
-  background: lightslategray;
-}
 
 .yinyang {
   display: flex;
@@ -21,6 +10,7 @@ $time: 1s;
   border-radius: 50%;
   background: linear-gradient(black 50%, white 50%);
   animation: rotate 2 * $time linear infinite;
+  z-index: -1;
 
   &:before,
   &:after {

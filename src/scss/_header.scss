@@ -1,0 +1,42 @@
+header {
+  margin: 1rem 0;
+  h1,
+  h2 {
+    cursor: pointer;
+    margin: auto auto;
+  }
+  .underline::after {
+    content: "";
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: white;
+    transition: 300ms;
+  }
+  .underline:hover::after {
+    width: 100%;
+  }
+  .parent {
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    order: 1;
+    .me {
+      cursor: pointer;
+      max-width: 200px;
+      height: 100%;
+      background-size: cover;
+      background-image: url(../img/me.jpg);
+      background-position: center;
+      transition: all 0.5s;
+    }
+  }
+  .parent:hover .me,
+  .parent:focus .me {
+    transform: scale(2);
+  }
+  .parent:hover .me:before,
+  .parent:focus .me:before {
+    display: block;
+  }
+}

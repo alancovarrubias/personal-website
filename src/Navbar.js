@@ -1,5 +1,4 @@
 import React from "react";
-import "./scss/_navbar.scss";
 
 function Navbar() {
   return (
@@ -14,11 +13,14 @@ function Navbar() {
           </ul>
         </li>
         <li>
-          <a href="">Links</a>
+          <a href="">Skills</a>
           <ul>
-            <li>Resume</li>
-            <li>Github</li>
-            <li>LinkedIn</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>React</li>
+            <li>Ruby on Rails</li>
           </ul>
         </li>
       </ul>

@@ -1,13 +1,13 @@
 nav ul {
-  background-color: cyan;
-  color: white;
+  background-color: #4e3172;
   padding: 0;
+  flex: 0 0 100%;
 }
 nav ul li {
   list-style-type: none;
   border-right: white 1px solid;
   cursor: pointer;
-  width: 5%;
+  width: 50%;
   text-align: center;
   padding: 0.5rem 0;
 }
