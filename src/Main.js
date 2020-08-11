@@ -1,7 +1,7 @@
 import React from "react";
 import Zoom from "./Zoom";
 
-function Body() {
+function Main() {
   return (
     <div className="row clouds main">
       <h2 className="underline">Background</h2>
@@ -28,18 +28,6 @@ function Body() {
       </article>
     </div>
   );
-  /*
-  return (
-    <div className="row clouds">
-        <div className="row main">
-          <h2 className="underline">Background</h2>
-        </div>
-        <div className="row content">
-        </div>
-      </div>
-    </div>
-  );
-  */
 }
 
-export default Body;
+export default Main;

@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "./Header";
-import Body from "./Body";
+import Main from "./Main";
 import Navbar from "./Navbar";
-import YinYang from "./YinYang";
-import Psy from "./Psy";
-import BugGame from "./BugGame";
+import YinYang from "./components/YinYang";
+import Psy from "./components/Psy";
+import BugGame from "./components/SquashBug";
 import Footer from "./Footer";
 import "./scss/styles.scss";
 
@@ -14,7 +14,7 @@ function App() {
       <Header />
       <YinYang />
       <Navbar />
-      <Body />
+      <Main />
       <Psy />
       <BugGame />
       <Footer />

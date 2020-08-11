@@ -1,9 +1,8 @@
 import React from "react";
-import "./scss/_bug.scss";
 
-function BugGame() {
+function SquashBug() {
   return (
-    <div className="row">
+    <div className="row squash-bug">
       <div className="grass">
         <div className="bug"></div>
       </div>
@@ -11,4 +10,4 @@ function BugGame() {
   );
 }
 
-export default BugGame;
+export default SquashBug;
