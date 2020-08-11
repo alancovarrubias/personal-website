@@ -13,7 +13,6 @@ body {
   background-size: cover;
   margin: 0px;
   padding: 0px;
-  color: white;
 }
 
 /*  grid system */
@@ -42,10 +41,12 @@ body {
 
 .stars {
   background-image: url(../img/stars.jpg);
+  color: white;
 }
 
 .clouds {
   background-image: url(../img/clouds.png);
+  color: black;
 }
 .sand {
   background-image: url(../img/sand.jpg);

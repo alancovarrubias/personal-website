@@ -3,7 +3,7 @@ import Zoom from "./Zoom";
 
 function Body() {
   return (
-    <div className="row clouds main">
+    <div className="row main">
       <h2 className="underline">Background</h2>
       <article class="col-3">
         <p>
@@ -28,18 +28,6 @@ function Body() {
       </article>
     </div>
   );
-  /*
-  return (
-    <div className="row clouds">
-        <div className="row main">
-          <h2 className="underline">Background</h2>
-        </div>
-        <div className="row content">
-        </div>
-      </div>
-    </div>
-  );
-  */
 }
 
 export default Body;

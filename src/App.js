@@ -11,11 +11,15 @@ import "./scss/styles.scss";
 function App() {
   return (
     <div className="container">
-      <Header />
-      <YinYang />
+      <div className="stars">
+        <Header />
+        <YinYang />
+      </div>
       <Navbar />
-      <Body />
-      <Psy />
+      <div className="clouds">
+        <Body />
+        <Psy />
+      </div>
       <BugGame />
       <Footer />
     </div>
