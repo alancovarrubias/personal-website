@@ -2,20 +2,20 @@
   width: 100%;
   height: 50vh;
   position: relative;
-}
-.bug {
-  background-image: url(../img/bug.png);
-  animation: chaseMe 3s linear infinite alternate-reverse;
-  width: 100px;
-  height: 100px;
-  background-size: cover;
-  position: absolute;
-  cursor: pointer;
-}
-.bug:hover {
-  z-index: 1;
-  background-image: url(../img/skull.png);
-  animation-play-state: paused;
+  .bug {
+    background-image: url(../img/bug.png);
+    animation: chaseMe 3s linear infinite alternate-reverse;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    position: absolute;
+    cursor: grab;
+  }
+  .bug:hover {
+    z-index: 1;
+    background-image: url(../img/skull.png);
+    animation-play-state: paused;
+  }
 }
 @keyframes chaseMe {
   0% {

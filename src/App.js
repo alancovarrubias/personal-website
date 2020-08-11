@@ -20,7 +20,7 @@ function App() {
         <Main />
         <Psy />
       </div>
-      <div className="grass2">
+      <div className="grass">
         <SquashBug />
       </div>
       <div className="sand">
