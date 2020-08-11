@@ -1,7 +1,3 @@
-.grass {
-  background-image: url(../img/grass.jpg);
-  background-size: cover;
-}
 .map {
   width: 100%;
   height: 50vh;
@@ -16,8 +12,8 @@
   width: 100px;
   height: 100px;
   background-size: cover;
+  cursor: grab;
   position: absolute;
-  cursor: pointer;
 }
 .bug:hover {
   background-image: url(../img/skull.png);
