@@ -3,14 +3,14 @@ $scale_factor: 0.5;
 $time: 1s;
 
 .yinyang {
+  z-index: 1;
   display: flex;
   align-items: center;
   width: $diameter;
   height: $diameter;
   border-radius: 50%;
-  background: linear-gradient(black 50%, white 50%);
+  background: linear-gradient(black 50%, white 50%) !important;
   animation: rotate 2 * $time linear infinite;
-  z-index: -1;
 
   &:before,
   &:after {

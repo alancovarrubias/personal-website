@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="container">
       <Header />
+      <YinYang />
       <Navbar />
       <Body />
-      <YinYang />
       <Psy />
       <BugGame />
       <Footer />

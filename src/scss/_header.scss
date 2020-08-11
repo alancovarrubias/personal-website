@@ -1,20 +1,10 @@
 header {
-  margin: 1rem 0;
+  padding: 1rem 0;
+  background-image: url(../img/stars.jpg);
   h1,
   h2 {
     cursor: pointer;
     margin: auto auto;
-  }
-  .underline::after {
-    content: "";
-    width: 0px;
-    height: 1px;
-    display: block;
-    background: white;
-    transition: 300ms;
-  }
-  .underline:hover::after {
-    width: 100%;
   }
   .parent {
     border: 1px solid red;
