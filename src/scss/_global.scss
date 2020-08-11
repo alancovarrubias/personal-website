@@ -15,26 +15,6 @@ body {
   padding: 0px;
 }
 
-/*  grid system */
-.row {
-  display: flex;
-  flex-flow: row wrap;
-  flex: 0 1 auto;
-}
-[class*="col-"] {
-  flex: 0 0 92%;
-  margin: 0 4%;
-}
-.center {
-  justify-content: center;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .floatright {
   float: right;
 }

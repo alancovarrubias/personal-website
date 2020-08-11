@@ -2,9 +2,9 @@ import React from "react";
 import Header from "./Header";
 import Main from "./Main";
 import Navbar from "./Navbar";
-import YinYang from "./YinYang";
-import Psy from "./Psy";
-import BugGame from "./BugGame";
+import YinYang from "./components/YinYang";
+import Psy from "./components/Psy";
+import SquashBug from "./components/SquashBug";
 import Footer from "./Footer";
 import "./scss/styles.scss";
 
@@ -21,7 +21,7 @@ function App() {
         <Psy />
       </div>
       <div className="grass">
-        <BugGame />
+        <SquashBug />
       </div>
       <div className="sand">
         <Footer />
