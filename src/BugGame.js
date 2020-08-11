@@ -3,8 +3,10 @@ import "./scss/_bug.scss";
 
 function BugGame() {
   return (
-    <div className="container">
-      <div className="bug"></div>
+    <div className="row">
+      <div className="grass">
+        <div className="bug"></div>
+      </div>
     </div>
   );
 }

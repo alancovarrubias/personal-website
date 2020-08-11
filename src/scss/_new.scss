@@ -1,6 +1,7 @@
 @charset "UTF-8";
 html {
   box-sizing: border-box;
+  font-size: 28px;
 }
 *,
 *:before,
@@ -28,4 +29,14 @@ body {
 }
 .center {
   justify-content: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.floatright {
+  float: right;
 }

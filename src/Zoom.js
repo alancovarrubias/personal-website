@@ -1,8 +1,7 @@
 import React from "react";
-import "./scss/_zoom.scss";
 
 function Zoom() {
-  return <div class="hover-zoom"></div>;
+  return <div class="hover-zoom floatright"></div>;
 }
 
 export default Zoom;

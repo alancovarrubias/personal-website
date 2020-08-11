@@ -3,7 +3,7 @@ import "./scss/_psy.scss";
 
 function Psy() {
   return (
-    <div className="container">
+    <div className="row center">
       <div className="psy"></div>
     </div>
   );

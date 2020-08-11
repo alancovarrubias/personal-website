@@ -20,9 +20,9 @@ $time: 4s;
 }
 @keyframes movearound {
   0% {
-    transform: translatex(0);
+    transform: translatex(-1 * $width);
   }
   100% {
-    transform: translatex($width * 2);
+    transform: translatex($width);
   }
 }
