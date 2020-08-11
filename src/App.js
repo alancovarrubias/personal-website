@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-import Body from "./Body";
+import Main from "./Main";
 import Navbar from "./Navbar";
 import YinYang from "./YinYang";
 import Psy from "./Psy";
@@ -17,11 +17,15 @@ function App() {
       </div>
       <Navbar />
       <div className="clouds">
-        <Body />
+        <Main />
         <Psy />
       </div>
-      <BugGame />
-      <Footer />
+      <div className="grass">
+        <BugGame />
+      </div>
+      <div className="sand">
+        <Footer />
+      </div>
     </div>
   );
 }

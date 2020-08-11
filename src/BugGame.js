@@ -4,7 +4,7 @@ import "./scss/_bug.scss";
 function BugGame() {
   return (
     <div className="row">
-      <div className="grass">
+      <div className="map">
         <div className="bug"></div>
       </div>
     </div>

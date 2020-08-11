@@ -1,7 +1,7 @@
 import React from "react";
 import Zoom from "./Zoom";
 
-function Body() {
+function Main() {
   return (
     <div className="row main">
       <h2 className="underline">Background</h2>
@@ -30,4 +30,4 @@ function Body() {
   );
 }
 
-export default Body;
+export default Main;
