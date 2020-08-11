@@ -1,6 +1,7 @@
 import React from "react";
+import "./scss/_bug.scss";
 
-function SquashBug() {
+function BugGame() {
   return (
     <div className="row">
       <div className="map">
@@ -10,4 +11,4 @@ function SquashBug() {
   );
 }
 
-export default SquashBug;
+export default BugGame;
