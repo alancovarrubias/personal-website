@@ -1,4 +1,5 @@
 import React from "react";
+import "./scss/_psy.scss";
 
 function Psy() {
   return (
