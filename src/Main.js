@@ -5,7 +5,7 @@ function Main() {
   return (
     <main className="row">
       <h2 className="underline">About This Website</h2>
-      <article class="col-3">
+      <article className="col-">
         <p>
           <Zoom />
           Hello, and thank you for visiting my website! I am a web developer and
