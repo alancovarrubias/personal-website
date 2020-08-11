@@ -1,0 +1,31 @@
+.stars {
+  background-image: url(../img/stars.jpg);
+}
+
+.clouds {
+  background-image: url(../img/clouds.png);
+}
+.sand {
+  background-image: url(../img/sand.jpg);
+  color: black;
+}
+
+.pad {
+  padding: 3% 0;
+}
+
+.underline::after {
+  content: "";
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: currentColor;
+  transition: 300ms;
+}
+.underline:hover::after {
+  width: 100%;
+}
+
+.floatright {
+  float: right;
+}

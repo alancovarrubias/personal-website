@@ -1,0 +1,16 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+  font-size: 28px;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Cabin", Arial, Geneva, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}

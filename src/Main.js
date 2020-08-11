@@ -1,11 +1,11 @@
 import React from "react";
-import Zoom from "./Zoom";
+import Zoom from "./components/Zoom";
 
 function Main() {
   return (
-    <div className="row clouds main">
+    <main className="row clouds main">
       <h2 className="underline">Background</h2>
-      <article class="col-3">
+      <article class="col">
         <p>
           <Zoom />
           Hello, and thank you for visiting my website! I am a web developer and
@@ -26,7 +26,7 @@ function Main() {
           manner.
         </p>
       </article>
-    </div>
+    </main>
   );
 }
 
