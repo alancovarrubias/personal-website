@@ -7,3 +7,4 @@
         bucket: alan-covarrubias
         file_root: ../build
         permission: public-read
+        region: us-east-2
