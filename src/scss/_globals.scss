@@ -1,8 +1,22 @@
 @charset "UTF-8";
 html {
   box-sizing: border-box;
-  font-size: 28px;
+  font-size: 12px;
 }
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 550px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 850px) {
+  html {
+    font-size: 28px;
+  }
+}
+
 *,
 *:before,
 *:after {

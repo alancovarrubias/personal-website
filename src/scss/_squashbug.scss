@@ -5,8 +5,8 @@
   .bug {
     background-image: url(../img/bug.png);
     animation: chaseMe 3s linear infinite alternate-reverse;
-    width: 100px;
-    height: 100px;
+    width: 30px;
+    height: 30px;
     background-size: cover;
     position: absolute;
     cursor: grab;
@@ -37,5 +37,25 @@
   100% {
     top: 80%;
     right: 90%;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 550px) {
+  .map {
+    .bug {
+      width: 60px;
+      height: 60px;
+    }
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 850px) {
+  .map {
+    .bug {
+      width: 100px;
+      height: 100px;
+    }
   }
 }

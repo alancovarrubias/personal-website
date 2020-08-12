@@ -1,8 +1,9 @@
 $step_count: 23;
+$height: 400px;
 $width: 225px;
 $time: 4s;
 .psy {
-  height: 400px;
+  height: $height;
   width: $width;
   background-image: url(https://estelle.github.com/10/files/sprite.png);
   animation: gangnam $time steps($step_count, start) infinite,
