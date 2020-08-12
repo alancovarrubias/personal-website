@@ -1,7 +1,7 @@
 .hover-zoom {
   margin: 10px;
-  height: 220px;
-  width: 400px;
+  height: 100px;
+  width: 200px;
   transition: all 0.3s ease-in-out;
   background-size: 100%;
   background-position: center;
@@ -13,4 +13,20 @@
 .hover-zoom:hover {
   border: 5px solid #4e3172;
   background-size: 140%;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 550px) {
+  .hover-zoom {
+    height: 200px;
+    width: 400px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 850px) {
+  .hover-zoom {
+    height: 250px;
+    width: 500px;
+  }
 }
