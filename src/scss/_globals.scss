@@ -9,7 +9,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  font-family: "Cabin", Arial, Geneva, sans-serif;
+  font-family: CustomFont, Arial, Geneva, sans-serif;
   background-size: cover;
   margin: 0px;
   padding: 0px;
@@ -30,4 +30,8 @@ body {
 }
 .underline:hover::after {
   width: 100%;
+}
+@font-face {
+  font-family: CustomFont;
+  src: url(../img/Sriracha-Regular.ttf);
 }
