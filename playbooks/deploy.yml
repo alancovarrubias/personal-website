@@ -4,7 +4,7 @@
   tasks:
     - name: Sync local build dir with bucket
       s3_sync:
-        bucket: alan-covarrubias
+        bucket: alancovarrubias
         file_root: ../build
         permission: public-read
         region: us-east-2

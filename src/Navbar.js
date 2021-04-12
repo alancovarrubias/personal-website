@@ -6,7 +6,8 @@ const navs = [
     links: [
       {
         title: "Resume",
-        href: "https://alan-covarrubias.s3.us-east-1.amazonaws.com/resume.pdf",
+        href:
+          "https://alancovarrubiaswebsite.s3-us-west-1.amazonaws.com/Alan_Covarrubias_Resume.pdf",
       },
       {
         title: "Github",
