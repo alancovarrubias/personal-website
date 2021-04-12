@@ -34,21 +34,29 @@ const navs = [
       },
       {
         title: "React",
-        href:
-          "https://github.com/alancovarrubias/login-workflow/tree/master/client/src",
+        href: "https://github.com/alancovarrubias/sports-app/tree/main/client",
       },
       {
         title: "GraphQL",
-        href: "https://github.com/alancovarrubias/sports-stats",
+        href: "https://github.com/alancovarrubias/sports-app/tree/main/server",
       },
       {
         title: "Ruby on Rails",
-        href: "https://github.com/alancovarrubias/nba-database",
+        href: "https://github.com/alancovarrubias/sports-app/tree/main/nba",
       },
       {
-        title: "Testing",
+        title: "Python",
+        href: "https://github.com/alancovarrubias/sports-app/tree/main/crawler",
+      },
+      {
+        title: "Client Side Testing",
         href:
-          "https://github.com/alancovarrubias/login-workflow/tree/master/e2e",
+          "https://github.com/alancovarrubias/sports-app/tree/main/client/test-utils",
+      },
+      {
+        title: "Backend API Testing",
+        href:
+          "https://github.com/alancovarrubias/sports-app/tree/main/nba/spec",
       },
     ],
   },
